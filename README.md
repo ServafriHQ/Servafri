@@ -1,42 +1,43 @@
+# ServAfri
 
+ServAfri is a cloud infrastructure platform designed for Africa, focusing on localized performance and predictable pricing. This repository contains the frontend application and the official waitlist.
 
-## 🚀 Getting Started
+## About
 
-### Prerequisites
+The ServAfri frontend is built to be fast and developer-friendly. It serves as the primary landing page where builders can request early access to our sovereign cloud services. The platform emphasizes cheaper and more affordable compute service, low latency accross the continent and localized billing in African currencies to remove the friction of global cloud providers.
 
-- Node.js 20+
-- npm / pnpm / yarn
+## Tech Stack
 
-### Installation
+- Framework: Next.js 15 (App Router)
+- Styling: Tailwind CSS 4
+- State & Auth: Supabase
+- Animations: Framer Motion
 
-1. **Clone the repository:**
+## Installation
+
+To run the frontend locally, follow these steps:
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/big7technologies/hq.git
-   cd hq
+   git clone https://github.com/servafrihq/servafri.git
    ```
 
-2. **Install dependencies:**
+2. Install dependencies:
    ```bash
-   npm install
-   # or
    pnpm install
    ```
 
-3. **Configure Environment Variables:**
-   Create a `.env.local` file in the root directory and add your Resend API key:
+3. Start the development server:
    ```bash
-   RESEND_API_KEY=re_your_api_key
+   pnpm dev
    ```
 
-4. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
+The application will be available at http://localhost:3000.
 
-5. **Build for production:**
-   ```bash
-   npm run build
-   ```
+## Contributing
 
----
+This is an open source project. We welcome contributions to the UI, documentation, and overall developer experience. If you find a bug or have a suggestion, please open an issue or submit a pull request.
 
+## Security
+
+For security concerns, please contact security@servafri.com.
